@@ -119,66 +119,6 @@ export const router = createBrowserRouter([
 			},
 			{
 				path: "/",
-				element: <LayoutTwo />,
-				children: [
-					{
-						path: "/home-two",
-						element: <HomeTwo />,
-					},
-				],
-			},
-			{
-				path: "/",
-				element: <LayoutThree />,
-				children: [
-					{
-						path: "/home-three",
-						element: <HomeThree />,
-					},
-				],
-			},
-			{
-				path: "/",
-				element: <LayoutFour />,
-				children: [
-					{
-						path: "/home-four",
-						element: <HomeFour />,
-					},
-				],
-			},
-			{
-				path: "/",
-				element: <LayoutFive />,
-				children: [
-					{
-						path: "/home-five",
-						element: <HomeFive />,
-					},
-				],
-			},
-			{
-				path: "/",
-				element: <LayoutSix />,
-				children: [
-					{
-						path: "/home-six",
-						element: <HomeSix />,
-					},
-				],
-			},
-			{
-				path: "/",
-				element: <LayoutSeven />,
-				children: [
-					{
-						path: "/home-seven",
-						element: <HomeSeven />,
-					},
-				],
-			},
-			{
-				path: "/",
 				element: <LayoutEight />,
 				children: [
 					{
